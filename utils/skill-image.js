@@ -82,6 +82,10 @@ import kubernetes from '../app/assets/svg/skills/kubernetes.svg'
 import linux from '../app/assets/svg/skills/linux.svg'
 import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg'
 import fastapi from '../app/assets/svg/skills/fastapi.svg'
+import story from '../app/assets/svg/skills/story.svg'
+import chainlink from '../app/assets/svg/skills/chainlink.svg'
+import solidity from '../app/assets/svg/skills/solidity.svg'
+import rust from '../app/assets/svg/skills/rust.svg'
 
 
 
@@ -90,6 +94,14 @@ export const skillsImage = (skill) => {
   switch (skillID) {
     case 'gcp':
       return gcp;
+    case 'solidity':
+      return solidity;
+    case 'rust':
+      return rust;
+    case 'chainlink':
+      return chainlink;
+    case 'story ip':
+      return story;
     case 'html':
       return html;
     case 'photoshop':
